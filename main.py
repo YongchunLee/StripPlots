@@ -50,7 +50,7 @@ def plotS(filename, solar_c, solar_R, rc, coordinate):
 
 def main(json_data):
     """根据json数据画图"""
-    rows = json_data['rows']
+    rows = json_data
 
     # 同一个p_No的画在同一张图里
     dict_image = {}
